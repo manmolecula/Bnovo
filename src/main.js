@@ -1,9 +1,9 @@
 import Vue from 'vue';
 import App from './App.vue';
 import store from './store';
-import router from './router'; // Убедитесь, что этот файл настроен правильно
+import router from './router';
 
-Vue.config.productionTip = false; // Добавьте, если нужно
+Vue.config.productionTip = false;
 
 new Vue({
   store,

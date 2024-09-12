@@ -11,7 +11,7 @@ const routes = [
 ];
 
 const router = new VueRouter({
-  mode: 'history', // Используйте 'history' для чистых URL без #
+  mode: 'history',
   routes
 });
 
